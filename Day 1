@@ -1,0 +1,40 @@
+Today was the Day1 of my 100 Days of Code.
+I learnt a lot of new things in python like:
+        1. Print statement
+                   print("Hello World")
+                           Hello World
+        2. String Concatination
+                   #String Concatination
+                   print("Hello"+" "+"Ronit")
+                           Hello Ronit
+        3. Input function
+                  #Input Function
+                  name = input("What is your name?\n")
+        4. Specifying a data type of input
+        5. Combining print and input statement
+                  #Combining print and input statement
+                  print("Hello" + ' ' + input("Enter your name: "))
+                          Enter your name: Ronit
+                          Hello Ronit
+        6. Variables
+        7. Length function
+                  #Checking the length of a variable
+                  a = input("Enter your name: ")
+                  print(a,len(a))
+                          Enter your name: ronit
+                          ronit 5
+        8. Final Project for the day was a pet Band Name Generator
+                  #Final project for the day
+                  print("Welcome to Band name generator")
+                  a = input("""Enter the name of city in which you grew up
+                            """)
+                  b= input("""Enter your pet name
+                           """)
+                  print(f"Your band name could be: {a} {b}")
+                          Welcome to Band name generator
+                          Enter the name of city in which you grew up
+                                  chicago
+                          Enter your pet name
+                                  brabby
+                          Your band name could be: chicago brabby
+        9. Also lernt some debugging 
