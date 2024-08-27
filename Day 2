@@ -1,0 +1,22 @@
+Today was Day2 of my python learning journey
+I learnt a lot of new things like:
+        1. Data Types: Intergers,Floating value numbers, booleaan,type conversion,many different mathmatical operators and the use of f string.
+Project for the Day: Tip Calculator
+        import time as t
+        t.sleep(2)
+        print("Welcome to te tip calculator")
+        t.sleep(2)
+        bill = int(input("What was your total bill? "))
+        tip = int(input("How much tip you can give? (10%, 12% or 15%) "))
+        people = int(input("How many people will split the bill? "))
+        total_bill = bill+((tip/100)*bill) 
+        bill_per_person = total_bill/people
+        t.sleep(2)
+        print("Your total bill is: ",bill_per_person)
+                Output:
+                       Welcome to te tip calculator
+                       What was your total bill? 300
+                       How much tip you can give? (10%, 12% or 15%) 10
+                       How many people will split the bill? 6
+                       Your total bill is:  55.0
+
